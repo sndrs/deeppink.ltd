@@ -1,0 +1,12 @@
+{
+	"name": "deeppink",
+	"version": 2,
+	"alias": ["deeppink.ltd", "www.deeppink.ltd"],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"status": 301,
+			"headers": { "Location": "https://deeppink.co/$1" }
+		}
+	]
+}
